@@ -8,16 +8,13 @@
 - Clone the repository ;
 
 ```bash
-
 git clone https://github.com/Zmp0/file-info.git 
-
 ```
 
 - Add an alias to the shell configuration 
 
 ```
 alias info='bash "YOURDRECTORYFOLDER"/file-info/finfo.sh'
-
 ```
 
 ### Syntax
