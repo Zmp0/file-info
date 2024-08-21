@@ -1,20 +1,19 @@
 # File Info
 
 - A simple file information viewer into the terminal 
-- Requires only exa 
+- Requires only `exa` 
 
 ## Installing
 
-- Clone the repository and add an alias to the directory :
+- Clone the repository ;
 
 ```bash
 
-git clone 
+git clone https://github.com/Zmp0/file-info.git 
 
 ```
 
-
-
+- Add an alias to the shell configuration 
 
 ```
 alias info='bash "YOURDRECTORYFOLDER"/file-info/finfo.sh'
@@ -27,7 +26,7 @@ alias info='bash "YOURDRECTORYFOLDER"/file-info/finfo.sh'
 
 ```bash
 
-./finfo.sh /home
+info /home
 
 ```
 
@@ -35,6 +34,6 @@ alias info='bash "YOURDRECTORYFOLDER"/file-info/finfo.sh'
 
 ```bash
 
-
+info somefile.txt
 
 ```
